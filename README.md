@@ -23,5 +23,23 @@ City – major cities and their populations
 
 CountryLanguage – languages spoken in each country
 
+🚀 Usage
+
+Import the database:
+
+mysql -u root -p < world.sql
+
+Open MySQL and select the database:
+
+USE world;
+
+Run the practice queries from worlddbpractice.sql:
+
+mysql -u root -p world < worlddbpractice.sql
+
+📚 Reference
+
+MySQL Sample Databases
+
 # worlddbpracticeSQL
 This repository contains SQL practice queries using the classic MySQL World Sample Database.
